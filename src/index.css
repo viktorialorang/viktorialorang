@@ -1,0 +1,63 @@
+:root {
+  /* Colors from Figma */
+  --color-bg: #fbf9ff;
+  --color-surface: #ffffff;
+  --color-text: #1e1433;
+  --color-text-muted: #52476b;
+  --color-primary: #5b3fd1;
+  --color-accent: #e5533d;
+  --color-border: #e6e0f5;
+  --color-switch-bg: #ede8fb;
+  --color-preview-1: #e0d8ff;
+  --color-preview-2: #ece7ff;
+  --color-preview-3: #f3efff;
+
+  /* Fonts */
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-display: 'Bricolage Grotesque', 'Inter', system-ui, sans-serif;
+  --font-headline: 'Geist', 'Inter', system-ui, sans-serif;
+  --font-serif: 'Instrument Serif', Georgia, serif;
+
+  /* Layout */
+  --content-width: 960px;
+  --gutter: 24px;
+
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 3px;
+}
