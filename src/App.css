@@ -104,6 +104,8 @@
   font-size: 64px;
   letter-spacing: -1.28px;
   color: var(--color-accent);
+  /* Instrument Serif has only one weight, so the stroke makes it bolder */
+  -webkit-text-stroke: 1.2px currentColor;
 }
 
 .hero__subline {
